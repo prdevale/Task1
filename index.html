@@ -1,0 +1,395 @@
+<!-- This is TASK 1(Karan Kumar Gupta) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-1 Single page website</title>
+
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- This is the first part -->
+  <nav class="d-flex text-center text-white" id="navimg">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">ZIPPY</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="#" autofocus>Home</a>
+            <a class="nav-link" href="#Project">Projects</a>
+            <a class="nav-link" href="#Pricing">Pricing</a>
+            <a class="nav-link" href="#Team">Team</a>
+            <a class="nav-link" href="#Blog">Blog</a>
+            <a class="nav-link" href="#inp-box">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-1" style="padding-bottom: 120px">
+        <h1 style="text-align:left;margin-top: -100px;">One page promising full fill all your needs</h1>
+        <p class="lead" style="text-align: left;">This is the photoshop's version of Lorem Epsum,Proim<br>Gravida nibh
+          vel velit auctor aliquet.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-secondary fw-bold  mt-3" id="button1">Learn more</a>
+          <a href="#" class="btn btn-lg btn-secondary fw-bold  mt-3" id="button2">Learn more</a>
+        </p>
+      </main>
+      <div class="row container justify-content-md-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" class="bi bi-circle col-1" viewBox="0 0 16 16"
+          onclick="fiiled1();" fill="rgb(190, 190, 190)">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" class="bi bi-circle col-1" onclick="filled2()"
+          viewBox="0 0 16 16" fill="rgb(190, 190, 190)">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" class="bi bi-circle col-1" onclick="filled3();"
+          viewBox="0 0 16 16" fill="rgb(190, 190, 190)">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        </svg>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- This is second part -->
+  <div class="bg-white">
+  <p id="welcome">Welcome to ZIPPY</p>
+  <section class="d-flex flex-column" style="text-align: center;">
+    <span id="flexr">
+      <p id="welcome-text">This is photoshop's version of<br> Lorem Epsum,Proim gravida nibh.<br> vel velit auctor
+        aliquet. Aelean sol-<br>licitudin, lorem quis bibendum <br>auctor.</p><svg xmlns="http://www.w3.org/2000/svg"
+        width="200" height="300" fill="grey" class="bi bi-umbrella" viewBox="0 0 16 16">
+        <path
+          d="M8 0a.5.5 0 0 1 .5.5v.514C12.625 1.238 16 4.22 16 8c0 0 0 .5-.5.5-.149 0-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394A3.166 3.166 0 0 0 13 7.5c-.638 0-1.178.213-1.564.434a3.484 3.484 0 0 0-.555.394l-.025.023-.003.003s-.204.146-.353.146-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394 3.3 3.3 0 0 0-1.064-.39V13.5H8h.5v.039l-.005.083a2.958 2.958 0 0 1-.298 1.102 2.257 2.257 0 0 1-.763.88C7.06 15.851 6.587 16 6 16s-1.061-.148-1.434-.396a2.255 2.255 0 0 1-.763-.88 2.958 2.958 0 0 1-.302-1.185v-.025l-.001-.009v-.003s0-.002.5-.002h-.5V13a.5.5 0 0 1 1 0v.506l.003.044a1.958 1.958 0 0 0 .195.726c.095.191.23.367.423.495.19.127.466.229.879.229s.689-.102.879-.229c.193-.128.328-.304.424-.495a1.958 1.958 0 0 0 .197-.77V7.544a3.3 3.3 0 0 0-1.064.39 3.482 3.482 0 0 0-.58.417l-.004.004S5.65 8.5 5.5 8.5c-.149 0-.352-.145-.352-.145l-.004-.004a3.482 3.482 0 0 0-.58-.417A3.166 3.166 0 0 0 3 7.5c-.638 0-1.177.213-1.564.434a3.482 3.482 0 0 0-.58.417l-.004.004S.65 8.5.5 8.5C0 8.5 0 8 0 8c0-3.78 3.375-6.762 7.5-6.986V.5A.5.5 0 0 1 8 0zM6.577 2.123c-2.833.5-4.99 2.458-5.474 4.854A4.124 4.124 0 0 1 3 6.5c.806 0 1.48.25 1.962.511a9.706 9.706 0 0 1 .344-2.358c.242-.868.64-1.765 1.271-2.53zm-.615 4.93A4.16 4.16 0 0 1 8 6.5a4.16 4.16 0 0 1 2.038.553 8.688 8.688 0 0 0-.307-2.13C9.434 3.858 8.898 2.83 8 2.117c-.898.712-1.434 1.74-1.731 2.804a8.687 8.687 0 0 0-.307 2.131zm3.46-4.93c.631.765 1.03 1.662 1.272 2.53.233.833.328 1.66.344 2.358A4.14 4.14 0 0 1 13 6.5c.77 0 1.42.23 1.897.477-.484-2.396-2.641-4.355-5.474-4.854z" />
+      </svg>
+    </span>
+    <div class="container d-flex" style="justify-content:space-evenly;">
+      <div class="p-3" style="height: 300px;text-align: center;padding: 100px;"><img
+          src="https://img.icons8.com/ios/50/000000/bell.png"
+          style="background-color: rgb(255, 149, 107);border-radius: 50px;padding: 10px;">
+        <h4 style="padding: 10px;">Lorem Ipsum</h4>
+        <p style="width: 150px;font-size: smaller;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          quis eos necessitatibus ab repudiandae incidunt tempore vero.</p><a href="#"
+          class="btn btn-lg btn-secondary fw-bold  mt-3" id="button">Learn more</a>
+      </div>
+      <div class="p-3" style="height: 300px;text-align: center;padding: 100px;"><img
+          src="https://img.icons8.com/ios/50/000000/secured-letter--v1.png"
+          style="background-color: rgb(255, 149, 107);border-radius: 50px;padding: 10px;" />
+        <h4 style="padding: 10px;">Lorem Ipsum</h4>
+        <p style="width: 150px;font-size: smaller;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          quis eos necessitatibus ab repudiandae incidunt tempore vero.</p><a href="#"
+          class="btn btn-lg btn-secondary fw-bold  mt-3" id="button">Learn more</a>
+      </div>
+      <div class="p-3" style="height: 300px;text-align: center;padding: 100px;"><img
+          src="https://img.icons8.com/dotty/64/000000/console-table.png"
+          style="background-color: rgb(255, 149, 107);border-radius: 50px;padding: 10px; height: 4.5em;" />
+        <h4 style="padding: 10px;">Lorem Ipsum</h4>
+        <p style="width: 150px;font-size: smaller;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          quis eos necessitatibus ab repudiandae incidunt tempore vero.</p><a href="#"
+          class="btn btn-lg btn-secondary fw-bold  mt-3" id="button">Learn more</a>
+      </div>
+    </div>
+    <hr style="width: 55em;margin-left: 200px; margin-top: 100px;">
+  </section>
+
+  <section>
+    <p id="Project">Projects</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIF6G4Zy-a-JWM6zJMcYycKTFUamYIujmL_g&usqp=CAU"
+      alt="Images of the example project" style="height: 300px;width: 100%;;">
+    <div class="card-group">
+      <div class="card py-2 px-1">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Projects</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam sed est provident
+            vited.</p>
+          <a href="#" class="btn btn-lg btn-secondary fw-bold " id="button4">Launch Case Study</a>
+        </div>
+      </div>
+      <div class="card py-2 px-1">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Projects</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam sed est provident
+            vited.</p>
+          <a href="#" class="btn btn-lg btn-secondary fw-bold " id="button4">Launch Case Study</a>
+        </div>
+      </div>
+      <div class="card py-2 px-1">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Projects</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam sed est provident
+            vited.</p>
+          <a href="#" class="btn btn-lg btn-secondary fw-bold " id="button4">Launch Case Study</a>
+        </div>
+      </div>
+      <div class="card py-2 px-1">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Projects</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam sed est provident
+            vited.</p>
+          <a href="#" class="btn btn-lg btn-secondary fw-bold " id="button4">Launch Case Study</a>
+        </div>
+      </div>
+    </div>
+    <!-- Projects section -->
+    <p id="Pricing">Price Table</p>
+
+    <div class="row justify-content-md-center">
+      <div class="col-3" style="border:  0;">
+        <h4>STANDARD PLAN</h4>
+        <p style="color: rgb(190, 190, 190)">Free</p>
+        <p>2GB Available</p>
+        <p>30 Messages only</p>
+        <p>Disgusting Ads</p><button type="button" class="btn btn-info">BUY</button>
+      </div>
+      <div class="col-3 "
+        style="border-top-width: 0;border-bottom-width: 0;border-style: solid;border-right-width: 5px;border-left-width: 5px;">
+        <h4>PREMIUM PLAN</h4>
+        <p style="color: rgb(190, 190, 190)">19$/Month</p>
+        <p>10GB Available</p>
+        <p>150 Messages only</p>
+        <p>Ads Free</p><button type="button" class="btn btn-info">BUY</button>
+      </div>
+      <div class="col-3" style="border: 0;">
+        <h4>bUSSINESS PLAN</h4>
+        <p style="color: rgb(190, 190, 190)">14$/Month</p>
+        <p>100GB Available</p>
+        <p>Unlimited Messages only</p>
+        <p>Ads Free</p><button type="button" class="btn btn-info">BUY</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video projects -->
+  <!-- Skipped for a second  i a will do it later -->
+
+
+
+  <!-- Zippy Team -->
+
+  <section>
+    <p id="Team">Zippy Team</p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4" style="padding-left: 150px;padding-right:150px;text-align: center;"
+      id="Funky">
+      <div class="col">
+        <div class="card" style="height: 250px;">
+          <a href="#"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhpCuvCgOqmR-vRkxOyayW5WPeRjH0HikDNQ&usqp=CAU"
+              style="border-radius: 150px;height: 150px;width: 150px;" class="card-img-top" alt="Member1"></a>
+          <div class="card-body">
+            <h5 class="card-title">Richard Jackson</h5>
+            <p class="card-text">Senior Designer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="height: 250px;">
+          <a href="#"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM9M6-tueNr3t1YVrYZ_zImqr2OaG4kDYotA&usqp=CAU"
+              style="border-radius: 150px;height: 150px;width: 150px;" class="card-img-top" alt="member2"></a>
+          <div class="card-body">
+            <h5 class="card-title">Matt Alex</h5>
+            <p class="card-text">Art Director</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="height: 250px;">
+          <a href="#"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYtDGcMm6e9kCSkhYOJxTJ2-JYLp_IRVxOqxD7a-1lXneaKubBlF4HWc7khsevgPHszA&usqp=CAU"
+              style="border-radius: 150px;height: 150px;width: 150px;" class="card-img-top" alt="member3"></a>
+          <div class="card-body">
+            <h5 class="card-title">Chris Philips</h5>
+            <p class="card-text">Senior Designer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="height: 250px;">
+          <a href="#"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn3WvgTXZ7EUkuyBIi3ulBh1R3Zl8tcb_9HiWR6OcMlmjJd4aty2JyWAZwigDelXEo9Io&usqp=CAU"
+              style="border-radius: 150px;height: 150px;width: 150px;" class="card-img-top" alt="member4"></a>
+          <div class="card-body">
+            <h5 class="card-title">Jimmy Smith</h5>
+            <p class="card-text">Marketing Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="height: 250px;">
+          <a href="#"><img src="data:image/jpeg;base64,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" style="border-radius: 150px;height: 150px;width: 150px;" class="card-img-top" alt="member5"></a>
+          <div class="card-body">
+            <h5 class="card-title">Auzza</h5>
+            <p class="card-text">SEO monster</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="height: 250px;">
+          <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6wsCVZ2AgxjOrPbbX8pYQEqelCiaIpeDhT6lzWu8cGZ46TLEcQPzoooeEIPAXiTix5_c&usqp=CAU" style="border-radius: 150px;height: 150px;width: 150px;" class="card-img-top" alt="member6"></a>
+          <div class="card-body">
+            <h5 class="card-title">Sara Johnson</h5>
+            <p class="card-text">Creative Head</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Life at Zippy -->
+  <section>
+    <div class="container-fluid" style="background-color: rgb(235, 229, 229);height: 500px;">
+      <div id="welcome">Life in ZIPPY</div>
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false" style="height: 300px;width:500px;margin-left: 350px;border-radius: 23px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpFYRg5g5gox2mlkwaWBdDufnbyBHyRxzV9w&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQALmMT51K3-LRbgZWdwqkBGaq8kGB4oJjh9g&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrrw3_boBiabxHf8G9ArWfY9ECgvL5n_QnJHqjbup4lKkKp6kW9r8HVGLEQeRcQpRECzQ&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8zGs006At9ToQaH8AEuRvgaoBHWEbxnU2mKwkxOivF01FWQaBRTarO7EY-Gj29VQEsYM&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJtkt_mHY6f6G5pRBuBpA-mpVoTkhZnakFH7ZE5L6njEoHaBqVRmNkAb9dKgK1FFam0Y&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpFYRg5g5gox2mlkwaWBdDufnbyBHyRxzV9w&usqp=CAU"
+        alt="Working in a team" style="height: 300px;width: 500px;margin-left: 370px;" /> -->
+    </div>
+  </section>
+
+  <!-- Signup on newsletter -->
+  <section>
+    <div class="container-fluid" id="sign"
+      style="color: white;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;height: 300px;">
+      <p
+        style="text-align: center;padding-top: 60px;font-size: 50px;font-weight: bolder;text-shadow: 2px 1px 3px grey;">
+        Newsletter Signup</p>
+      <nav class="navbar navbar-dark" style="margin-left: 350px;">
+        <div class="container ">
+          <form class="d-flex" action="www.newsletter.com">
+            <input class="form-control me-2" type="email" placeholder="example@example.com" aria-label="Signup"
+              style="width: 500px;height: 47px;">
+            <button class="btn btn-outline-success" type="submit">Signup</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section>
+    <p id="Blog">Blogs</p>
+    <div class="d-flex" id="blog">
+
+      <div class="card mx-3" style="width: 12rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjNpRBTU6bKUOeyb9coIrkmmzfjeEEy9IuSw&usqp=CAU"
+          style="height:120px;width: 200px;" class="card-img-top" alt="...">
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Lorem Ipsum Dolor sit amit.</h5>
+          <p style="color: grey;">15 jun,2015</p>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur.</p>
+          <a href="#" class="btn btn-primary" id="btn-read">Read More</a>
+        </div>
+      </div>
+
+      <div class="card px-3" style="width: 15rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeqg5A6u6cxENIiXlzkG4iJF60rXimJkHwvA&usqp=CAU"
+          style="height:120px;width: 300px;" class="card-img-top" alt="...">
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Lorem Ipsum Dolot sit amit.</h5>
+          <p style="color: grey;">15 jun,2015</p>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur.</p>
+          <a href="#" class="btn btn-primary" id="btn-read">Read More</a>
+        </div>
+      </div>
+
+      <div class="card mx-3" style="width: 12rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvP2zWu9kQ7s6JImKKl0Dnwz0dLSPtR1767Q&usqp=CAU"
+          style="height:120px;width: 200px;" class="card-img-top" alt="...">
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Lorem Ipsum Dolor sit amit.</h5>
+          <p style="color: grey;">15 jun,2015</p>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur.</p>
+          <a href="#" class="btn btn-primary" id="btn-read">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Map and Contact Form  -->
+  <section>
+    <div class="container-fluid d-flex mt-5 p-0">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.1188716209454!2d77.23883161479986!3d28.656159182408423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfce26ec085ef%3A0x441e32f4fa5002fb!2sRed%20Fort!5e0!3m2!1sen!2sin!4v1628050574565!5m2!1sen!2sin"
+        width="50%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <span id="inp-box">
+        <!-- Contact email-address subject message send -->
+        <h1>Contact</h1>
+        <p>NAME</p><input type="text" placeholder="Name"><br>
+        <p>EMAIL ADDRESS</p><input type="Email" placeholder="Example@example.com"><br>
+        <p>SUBJECT</p><input type="text" placeholder="Subject"><br>
+        <p>MESSAGE</p><textarea name="message" cols="30" rows="6" placeholder="Enter message here..."></textarea><br>
+        <button type="submit">Send</button>
+      </span>
+    </div>
+  </section>
+
+  <section>
+    <footer class="row justify-content-md-center py-5" id="footer">
+      <div class="col-3" style="text-align: center">
+        <h5>Office Address</h5>
+        <p>Lorem Ipsum dolor, 234 1200 consectetur adipitchie.</p>
+      </div>
+      <div class="col-3" style="padding:0">
+        <h5>Follow Us</h5>
+        <p>
+          <a href="#"><img src="https://image.flaticon.com/icons/png/128/174/174848.png" alt="facebook"></a>
+          <a href="#"><img src="https://image.flaticon.com/icons/png/128/733/733558.png" alt="Instagram"></a>
+          <a href="#"><img src="https://image.flaticon.com/icons/png/128/733/733585.png" alt="Whatsapp"></a>
+          <a href="#"><img src="https://image.flaticon.com/icons/png/128/1384/1384014.png" alt="Linkedin"></a>
+          <a href="#"><img src="https://image.flaticon.com/icons/png/128/1384/1384017.png" alt="Twitter"></a>
+          <a href="#"><img src="https://image.flaticon.com/icons/png/128/2111/2111646.png" alt="Telegram"></a>
+        </p>
+      </div>
+      <div class="col-3">
+        <h5>Contact US</h5>
+        <p>
+          <a href="tel: +12-34567890">+12-34567890</a>
+          <span>Zippy@skype</span>
+          <span>Enquiry@Zippy.com</span>
+        </p>
+      </div>
+    </footer>
+  </section>
+  </div>
+
+  <!-- Script -->
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
